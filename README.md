@@ -25,7 +25,7 @@
 ---
 -Employee-Role -> @ManyToMany
 -Role-Permission -> @ManyToMany
--Permission-Privilege - @ManyToMany
+-Permission-Privilege -> @ManyToMany
 
 #For Example Relationship between Employee-Role
 ---
@@ -48,9 +48,9 @@
 
 -Retrieve one Employee - GET api/v1/employee/{id}
 
---Update a Employee- PUT api/v1/employee/{id}
+-Update a Employee- PUT api/v1/employee/{id}
 
---Delete a Employee - DELETE api/v1/employee/{id} 
+-Delete a Employee - DELETE api/v1/employee/{id} 
 
 
 
