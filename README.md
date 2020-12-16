@@ -5,6 +5,7 @@
 ---
 
 -open terminal
+
 -find project file path and copy path
 
 -cd {path}
@@ -13,20 +14,26 @@
 
 
 -mvn clean install
+
 -run application
 
 
 #Main Models
 ---
 -Employee
+
 -Role
+
 -Permission
+
 -Privilige
 
 #Relationship between each other
 ---
 -Employee-Role -> @ManyToMany
+
 -Role-Permission -> @ManyToMany
+
 -Permission-Privilege -> @ManyToMany
 
 #For Example Relationship between Employee-Role
