@@ -6,7 +6,9 @@
 
 -open terminal
 -find project file path and copy path
+
 -cd {path}
+
 -docker-compose up -d
 
 
